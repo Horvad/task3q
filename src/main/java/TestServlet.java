@@ -14,6 +14,6 @@ public class TestServlet extends HttpServlet {
         req.setCharacterEncoding("UTF-8");
         resp.setContentType("text/html; charset=UTF-8");
         Writer writer = resp.getWriter();
-        writer.write("версия 2");
+        writer.write("версия 1 ");
     }
 }
